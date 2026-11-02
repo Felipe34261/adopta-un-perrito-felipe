@@ -1,0 +1,26 @@
+body {
+  background-color: #ffffff;
+  color: #212529;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.dog-card {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s ease;
+}
+
+.dog-card:hover {
+  transform: translateY(-4px);
+}
+
+.card-img-custom {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
